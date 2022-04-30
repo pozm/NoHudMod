@@ -10,7 +10,49 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="BepInEx.IL2CPP" Version="6.0.0-*" IncludeAssets="compile"/>
-        <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*"/>
+        <PackageReference Include="BepInEx.IL2CPP" Version="6.0.0-*" IncludeAssets="compile" />
+        <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMono.Security">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Il2CppMono.Security.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2Cppmscorlib">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Il2Cppmscorlib.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Il2CppSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Configuration">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Il2CppSystem.Configuration.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Core">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Il2CppSystem.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.IO.Compression">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Il2CppSystem.IO.Compression.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.IO.Compression.FileSystem">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Il2CppSystem.IO.Compression.FileSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Xml">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\Il2CppSystem.Xml.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\UnityEngine.IMGUIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.InputModule">
+        <HintPath>..\..\..\..\..\..\..\app\Vulnus_Beta_Win\BepInEx\unhollowed\UnityEngine.InputModule.dll</HintPath>
+      </Reference>
     </ItemGroup>
 </Project>
